@@ -81,7 +81,7 @@ desc_temp = """
 
 			"""
 from PIL import Image 
-img = Image.open("togaylogogri.png")
+img = Image.open("togaylogogri.jpg")
 st.sidebar.image(img,width=270, caption='Demo-Lab')# 
 # st.sidebar.image('st-sidebar.jpg', width=200, align=Left)
 
